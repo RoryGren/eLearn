@@ -1,0 +1,300 @@
+
+body 
+{
+	font-family:		sans-serif, arial;
+	background-color:	#EEE;
+	width:				100%;
+}
+
+p, li
+{
+	line-height:		150%;
+}
+
+h5 
+{
+	text-decoration:	underline;
+}
+
+.highlighted,
+::-moz-selection {
+    background:			yellow;
+	color:				#000000;
+}
+
+.highlighted,
+::selection {
+    background:			yellow;
+	color:				#000000;
+}
+
+.title
+{
+	color:				#92CBC5;
+	margin-top:			-10px;
+}
+
+.padded
+{
+	padding:			5px;
+}
+
+.padded-top 
+{
+	padding-top:		5px;
+}
+
+.padded-top button
+{
+	padding:			0px;
+}
+
+.header
+{
+	color:				#92CBC5;
+}
+
+.header span,
+.header h2
+{
+	vertical-align:		middle;
+}
+
+.transcript
+{
+	padding:			10px;
+	margin-left:		10px;
+}
+
+.transcript p, .transcript ol li, .transcript ul li,
+.summary p, .summary ol li, .summary ul li, .summary h4,
+.summary h3
+{
+	padding-bottom:		15px;
+	color:				#333;
+}
+
+ul.summary li
+{
+	/*font-weight:		bold;*/
+	margin-left:		10px;
+	list-style-type:	disc;
+	/*padding-bottom:		15px;*/
+	/*line-height:		20px;*/
+}
+
+.notes
+{
+	font-weight:		bold;
+	font-style:			italic;
+	color:				red;
+}
+
+.courtesy
+/*.courtesy > a*/
+{
+	font-size:			10px;
+	/*color:				#92CBC5;*/
+}
+
+.courtesy:before
+{
+	/*padding-left:		5px;*/
+}
+
+.dark-theme {
+	background-color:	#333;
+	color:				#CCC;
+}
+
+button.dark-theme:hover {
+	background-color:	#444 !important;
+	color:				#DDD !important;
+}
+
+.leftNav > .navbar-header {
+	background-color:	#CCC;
+	margin-bottom:		10px;
+}
+
+.leftNavButton {
+	background-color:	#333 !important;
+	color:				#CCC !important;
+	text-align:			left !important;
+}
+
+.leftNavButton:hover {
+	background-color:	#444 !important;
+	cursor:				pointer;
+}
+
+.leftNav table tr td a {
+	/*font-size:			small !important;*/
+}
+
+h4.SignedIn {
+	color:				#CCC;
+	padding:			5px 20px;
+	cursor:				default;
+}
+
+.fa
+{
+	padding-right:		5px;
+}
+
+/*.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+
+.panel-body .table a {
+	margin-left:		10px;
+}*/
+
+.no-top-padding
+{
+	margin-top:			-10px;
+	margin-bottom:		5px;
+}
+
+.text-very-right {
+	position:			relative;
+	float:				right;
+}
+
+/*================*/
+tr.viewed,
+tr.border-green {
+	border:				2px solid #00CC00;
+	background-color:	#F0F0F0;
+}
+
+.viewed,
+.viewed a,
+.text-green,
+.text-green a
+{
+	color:				#00DD00 !important;
+}
+/*================*/
+
+.text-red,
+.text-red a
+{
+	color:				#FF0000 !important;
+}
+
+td.border-yellow
+{
+	border:				2px solid #ffff00;
+}
+
+td.border-brown
+{
+	border:				2px solid #666600;
+}
+
+.lastActive,
+.lastActive a,
+.text-brown,
+.text-brown a
+{
+	color:				#666600 !important;
+}
+
+.text-black,
+.text-black a
+{
+	color:				#333 !important;
+}
+
+.notice 
+{
+	color:				#FF0000 !important;
+}
+
+.no-entry:hover
+{
+	cursor:				not-allowed;
+}
+
+#lastLogin
+{
+	padding-top:		5px;
+}
+/* =============================================================================
+*  Video container styling
+*  =============================================================================
+*/
+.vidContainer
+{
+	border:				none;
+	overflow:			auto;
+	width:				98%;
+	/*height:				auto;*/
+	/*background-color:	#222;*/
+}
+
+.videoHeaderText
+{
+	color:				#CCC;
+	/*border: 1px solid grey;*/
+}
+
+#vid, #vidFull
+{
+	padding:			20px;
+	background-color:	#222;
+	text-align:			center;
+	width:				auto;
+	height:				auto;
+}
+
+video
+{
+	width:				90%;
+	height:				auto;
+}
+
+#vid
+{
+/*	width:				auto;
+	height:				auto;*/
+	/*max-height:			90vh;*/
+}
+
+#vid video
+{
+	max-width:			90%;
+}
+
+#vidFull video
+{
+	max-height:			85vh;
+}
+
+.vidControls
+{
+	padding-top:		10px;
+}
+
+#vidTranscript
+{
+	margin-top:			0px;
+}
+
+.active
+{
+	color:				#FFFFFF !important;
+}
+/* =============================================================================
+*  Help styling
+*  =============================================================================
+*/
+
+.spaced,
+.spaced li
+{
+	line-height:		220%;
+}
+

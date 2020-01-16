@@ -1,0 +1,63 @@
+<h3>Logging in to PowerOffice.</h3>
+<p>Logging in to PowerOffice is a simple process, but can be frustrating if a user forgets his or her
+password!</p>
+<ul>
+	<li>Fill in the correct <b><u>Login Name</u></b> and <b><u>Password</u></b>. These are user defined and will probably be allocated to you by your organisation.
+		<ul>
+			<li>Make sure you don't forget your password. If you do, an administrator will need to re-set your password for you.
+				(There is a default User Name with no password. This should only be used for the initial setup. 
+				Thereafter, only use the User Name allocated to you by your organisation.)</li>
+		</ul>
+	</li>
+	<li>Make sure the correct server installation is selected by putting the radio button dot in the 
+		correct position. (Most users will use <i>Microsoft SQL Server</i> - <b>MSSQL</b>)</li>
+	<li>This will change the server block below to request the relevant parameters for connecting to the database.
+		<ul>
+			<li>For MSSQL Server:
+				<ul>
+					<li><b><u>Server Name</u></b> requires the name of the computer where the database engine has been installed. 
+						<ul>
+							<li>If you have a <b>stand-alone</b> installation, i.e. everything will run on your computer and there will be 
+							no other computer connecting to PowerOffice on your computer across a network,
+							you will type in the name of your own computer here - the <i>local computer</i>. The exact name.<br>
+							PowerOffice will suggest the name of the local computer for you.</li>
+							<li>If you have a <b>client-server</b> setup, i.e. you have a dedicated server which runs
+							the PowerOffice MSSQL database engine and your computer connects to it across a network, 
+							you will type in the name, or the IP address of the server here. The exact name. If necessary, your
+							IT support team can help you here.</li>
+						</ul>
+					</li>
+					<li><b><u>Instance</u></b> requires just that, the MSSQL <i>Instance</i> on the server. 
+						With PowerOffice, this is <i>IIPower</i> (Not <i>"Two Power"</i>, the letter 'I' - Aye-aye Power!)<br>
+						If you have a dedicated server, your administrator will need to open up a 'Port' in the 
+						server firewall to allow outside computers to access the database engine.The users must then "tell" 
+						their computer what port to use on the server.<br>
+						This is done by following the Instance with a comma and the port number - no spaces.</li>
+					<li><b><u>Database</u></b> requires the database name to connect to, inside the instance of MSSQL. The PowerOffice 14 
+						database will be <i>PowerOffice14</i>.</li>
+				</ul>
+			</li>
+			<li>For Oracle:
+				<ul>
+					<li><li><b><u>ORA DB(SID)</u></b> requires the database SID. This is like the database name on the server.</li>
+					<li><b><u>Server Name</u></b> this requires the name of the computer where the database engine has been installed. 
+						<ul>
+							<li>If you have a <b>stand-alone</b> installation, i.e. everything will run on your computer and there will be 
+							no other computer connecting to PowerOffice on your computer across a network,
+							you will type in the name of your own computer here - the <i>local computer</i>. The exact name.<br>
+							PowerOffice will suggest the name of the local computer for you.</li>
+							<li>If you have a <b>client-server</b> setup, i.e. you have a dedicated server which runs
+							the PowerOffice Oracle database engine and your computer connects to it across a network, 
+							you will type in the name, or the IP address of the server here. The exact name. If necessary, your
+							IT support team can help you here.</li>
+						</ul>
+					</li>
+					<li><b><u>Port</u></b> requires the port number of the port that is opened for outside computers to access your 
+						database. PowerOffice defaults to port number 1521.</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+</ul>
+
+
